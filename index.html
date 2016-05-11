@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Sidemenu</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="fontawesome/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href="css/animate.min.css" rel="stylesheet">
+  <script type="text/javascript" src="js/custom.js"></script>
+
+
+    <script type="text/javascript" src="js/flot/jquery.flot.js"></script>
+  <script type="text/javascript" src="js/flot/jquery.flot.pie.js"></script>
+  <script type="text/javascript" src="js/flot/jquery.flot.orderBars.js"></script>
+  <script type="text/javascript" src="js/flot/jquery.flot.time.min.js"></script>
+  <script type="text/javascript" src="js/flot/date.js"></script>
+  <script type="text/javascript" src="js/flot/jquery.flot.spline.js"></script>
+  <script type="text/javascript" src="js/flot/jquery.flot.stack.js"></script>
+  <script type="text/javascript" src="js/flot/curvedLines.js"></script>
+  <script type="text/javascript" src="js/flot/jquery.flot.resize.js"></script>
+    <!-- gauge js -->
+  <script type="text/javascript" src="js/gauge/gauge.min.js"></script>
+  <script type="text/javascript" src="js/gauge/gauge_demo.js"></script>
+  <!-- bootstrap progress js -->
+  <script src="js/progressbar/bootstrap-progressbar.min.js"></script>
+  <!-- icheck -->
+  <script src="js/icheck/icheck.min.js"></script>
+  <!-- daterangepicker -->
+  <script type="text/javascript" src="js/moment/moment.min.js"></script>
+  <script type="text/javascript" src="js/datepicker/daterangepicker.js"></script>
+  <!-- chart js -->
+  <script src="js/chart.min.js"></script>
+
+</head>
+<body class="nav-md">
+    <div class="container-fluid">
+    	<div class="col-md-2">
+    		<div class="left_col scroll-view">
+    		<div class="navbar-title">
+    			<a class="site-title" href="index.html">
+    				<i class="fa fa-envira fa-2x"></i>&nbsp<span>Side Menu</span>
+    			</a>
+    		</div>
+    		<div class="profile">
+    			<div class="profile-pic">
+    				<img src="images/img.jpg" class="img-circle profile_img">
+    			</div>
+    			<div class="profile-info">
+    				<span>Welcome, </span>
+    				<h3>Nani</h3>
+    			</div>
+    			<br>
+    			<div id="slidebar-menu" class="main_menu_side hidden-print main_menu">
+    				<div class="menu-section">
+    					<ul class="nav side-menu">
+    						<li id="data" class="active"><a><i class="fa fa-home"></i>&nbspHome <span class="fa fa-chevron-down"></span></a> 
+                                <ul class="nav child_menu" id="content">
+                                	<li><a href="#">Dahboard</a></li>
+                                	<li><a href="#">Dashboard 1</a></li>
+                                	<li><a href="#">Dashboard 2</a></li>
+                                	
+                                </ul>
+    						</li>
+    						<li id="data1"><a><i class="fa fa-edit"></i>&nbspForms <span class="fa fa-chevron-down"></span></a> 
+                                <ul class="nav child-menu" id="content1">
+                                  	<li><a href="#">General Form</a></li>
+                                  	<li><a href="#">Advanced Components</a></li>
+                                  	<li><a href="#">Form Validation</a></li>
+				                    <li><a href="#">Form Wizard</a></li>
+				                    <li><a href="#">Form Upload</a></li>
+				                    <li><a href="#">Form Buttons</a></li>
+                                  
+                                  </ul>  
+    						</li>
+    						<li id="data2"><a><i class="fa fa-desktop"></i>&nbspUI Elements<span class="fa fa-chevron-down"></span></a>
+                                <ul class="nav child-menu" id="content2">
+                                 	<li><a href="#">General Elements</a></li>
+                                 	<li><a href="#">Media Gallery</a></li>
+                                 	<li><a href="#">Typography</a></li>
+				                    <li><a href="#">Icons</a></li>
+				                    <li><a href="#">Glyphicons</a></li>
+				                    <li><a href="#">Widgets</a></li>
+				                    <li><a href="#">Invoice</a></li>
+				                    <li><a href="#">Inbox</a></li>
+				                    <li><a href="#">Calendar</a></li>
+                                 </ul> 
+    						</li>
+    						<li id="data3"><a><i class="fa fa-table"></i>&nbspTables<span class="fa fa-chevron-down"></span></a>
+								<ul class="nav child-menu" id="content3">
+									<li><a href="#">Tables</a></li>
+									<li><a href="#">Dynameic Tables</a></li>
+								</ul>
+    						</li>
+    						<li id="data4"><a><i class="fa fa-bar-chart-o"></i>&nbspData Presentation<span class="fa fa-chevron-down"></span></a>
+      							<ul class="nav child-menu" id="content4">
+      								<li><a href="#">Chart JS</a></li>
+      								<li><a href="#">Chart JS2</a></li>
+      								<li><a href="#">Moris JS</a></li>
+				                    <li><a href="#">ECharts </a></li>
+				                    <li><a href="#">Other Charts </a></li>
+      							</ul>
+    						</li>
+    					</ul>
+    				</div>
+    				<div class="menu-section">
+    				    <h4 style="color:#F2F5F7;">Live On</h4>
+    					  <ul class="nav side-menu">
+                <li id="data5"><a><i class="fa fa-bug"></i> Additional Pages <span class="fa fa-chevron-down"></span></a>
+                  <ul class="nav child_menu" id="content5">
+                    <li><a href="#">E-commerce</a>
+                    </li>
+                    <li><a href="#">Projects</a>
+                    </li>
+                    <li><a href="#">Project Detail</a>
+                    </li>
+                    <li><a href="#">Contacts</a>
+                    </li>
+                    <li><a href="#">Profile</a>
+                    </li>
+                  </ul>
+                </li>
+                <li id="data6"><a><i class="fa fa-windows"></i> Extras <span class="fa fa-chevron-down"></span></a>
+                  <ul class="nav child_menu" id="content6">
+                    <li><a href="#">404 Error</a>
+                    </li>
+                    <li><a href="#">500 Error</a>
+                    </li>
+                    <li><a href="#">Plain Page</a>
+                    </li>
+                    <li><a href="#">Login Page</a>
+                    </li>
+                    <li><a href="#">Pricing Tables</a>
+                    </li>
+                  </ul>
+                </li>
+                <li><a><i class="fa fa-laptop"></i> Landing Page <span class="label label-success pull-right">Coming Soon</span></a>
+                </li>
+              </ul>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    	</div>
+    	<div class="col-md-10">
+    		<div class="top_nav">
+
+        <div class="nav_menu">
+          <nav class="" role="navigation">
+            <div class="nav toggle">
+              <a id="menu_toggle"></a>
+            </div>
+
+            <ul class="nav navbar-nav navbar-right">
+              <li class="">
+                <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                  <img src="images/img.jpg" alt="">John Doe
+                  <span class=" fa fa-angle-down"></span>
+                </a>
+                <ul class="dropdown-menu dropdown-usermenu pull-right" style="left: 905px;">
+                  <li><a href="javascript:;">  Profile</a>
+                  </li>
+                  <li>
+                    <a href="javascript:;">
+                      <span class="badge bg-red pull-right">50%</span>
+                      <span>Settings</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:;">Help</a>
+                  </li>
+                  <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> Log Out</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li role="presentation" class="dropdown">
+                <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
+                  <i class="fa fa-envelope-o"></i>
+                  <span class="badge bg-green">6</span>
+                </a>
+                <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu" style="left: 682px; margin-right: 0px;">
+                  <li>
+                    <a>
+                      <span class="image">
+                                        <img src="images/img.jpg" alt="Profile Image" />
+                                    </span>
+                      <span>
+                                        <span>John Smith</span>
+                      <span class="time">3 mins ago</span>
+                      </span>
+                      <span class="message">
+                                        Film festivals used to be do-or-die moments for movie makers. They were where...
+                                    </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a>
+                      <span class="image">
+                                        <img src="images/img.jpg" alt="Profile Image" />
+                                    </span>
+                      <span>
+                                        <span>John Smith</span>
+                      <span class="time">3 mins ago</span>
+                      </span>
+                      <span class="message">
+                                        Film festivals used to be do-or-die moments for movie makers. They were where...
+                                    </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a>
+                      <span class="image">
+                                        <img src="images/img.jpg" alt="Profile Image" />
+                                    </span>
+                      <span>
+                                        <span>John Smith</span>
+                      <span class="time">3 mins ago</span>
+                      </span>
+                      <span class="message">
+                                        Film festivals used to be do-or-die moments for movie makers. They were where...
+                                    </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a>
+                      <span class="image">
+                                        <img src="images/img.jpg" alt="Profile Image" />
+                                    </span>
+                      <span>
+                                        <span>John Smith</span>
+                      <span class="time">3 mins ago</span>
+                      </span>
+                      <span class="message">
+                                        Film festivals used to be do-or-die moments for movie makers. They were where...
+                                    </span>
+                    </a>
+                  </li>
+                  <li>
+                    <div class="text-center">
+                      <a href="inbox.html">
+                        <strong>See All Alerts</strong>
+                        <i class="fa fa-angle-right"></i>
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+
+            </ul>
+          </nav>
+        </div>
+
+      </div>
+          
+          <div class="right_col" role="main">
+          <div class="row tile_count">
+          <div class="animated flipInY col-md-2 col-sm-4 col-xs-4 tile_stats_count">
+            
+            <div class="right">
+              <span class="count_top"><i class="fa fa-user"></i> Total Users</span>
+              <div class="count">2500</div>
+              <span class="count_bottom"><i class="green">4% </i> From last Week</span>
+            </div>
+          </div>
+          <div class="animated flipInY col-md-2 col-sm-4 col-xs-4 tile_stats_count">
+            <div class="left"></div>
+            <div class="right">
+              <span class="count_top"><i class="fa fa-clock-o"></i> Average Time</span>
+              <div class="count">123.50</div>
+              <span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i>3% </i> From last Week</span>
+            </div>
+          </div>
+          <div class="animated flipInY col-md-2 col-sm-4 col-xs-4 tile_stats_count">
+            <div class="left"></div>
+            <div class="right">
+              <span class="count_top"><i class="fa fa-user"></i> Total Males</span>
+              <div class="count green">2,500</div>
+              <span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i>34% </i> From last Week</span>
+            </div>
+          </div>
+          <div class="animated flipInY col-md-2 col-sm-4 col-xs-4 tile_stats_count">
+            <div class="left"></div>
+            <div class="right">
+              <span class="count_top"><i class="fa fa-user"></i> Total Females</span>
+              <div class="count">4,567</div>
+              <span class="count_bottom"><i class="red"><i class="fa fa-sort-desc"></i>12% </i> From last Week</span>
+            </div>
+          </div>
+          <div class="animated flipInY col-md-2 col-sm-4 col-xs-4 tile_stats_count">
+            <div class="left"></div>
+            <div class="right">
+              <span class="count_top"><i class="fa fa-user"></i> Total Collections</span>
+              <div class="count">2,315</div>
+              <span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i>34% </i> From last Week</span>
+            </div>
+          </div>
+          <div class="animated flipInY col-md-2 col-sm-4 col-xs-4 tile_stats_count">
+            <div class="left"></div>
+            <div class="right">
+              <span class="count_top"><i class="fa fa-user"></i> Total Connections</span>
+              <div class="count">7,325</div>
+              <span class="count_bottom"><i class="green"><i class="fa fa-sort-asc"></i>34% </i> From last Week</span>
+            </div>
+          </div>
+        </div>
+
+             <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="dashboard_graph">
+
+              <div class="row x_title">
+                <div class="col-md-6">
+                  <h3>Network Activities <small>Graph title sub-title</small></h3>
+                </div>
+                <div class="col-md-6">
+                  <div style="background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #ccc" class="pull-right" id="reportrange">
+                    <i class="glyphicon glyphicon-calendar fa fa-calendar"></i>
+                    <span>April 11, 2016 - May 10, 2016</span> <b class="caret"></b>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-9 col-sm-9 col-xs-12">
+                <div class="demo-placeholder" style="height: 260px; display: none" id="placeholder33"></div>
+                <div style="width: 100%;">
+                  <div style="width: 100%; height: 270px; padding: 0px; position: relative;" class="demo-placeholder" id="canvas_dahs"><canvas class="flot-base" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 710px; height: 270px;" width="774" height="294"></canvas><div class="flot-text" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; font-size: smaller; color: rgb(84, 84, 84);"><div class="flot-x-axis flot-x1-axis xAxis x1Axis" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; display: block;"><div style="position: absolute; max-width: 88px; top: 252px; left: 33px; text-align: center;" class="flot-tick-label tickLabel">Jan 01</div><div style="position: absolute; max-width: 88px; top: 252px; left: 145px; text-align: center;" class="flot-tick-label tickLabel">Jan 02</div><div style="position: absolute; max-width: 88px; top: 252px; left: 256px; text-align: center;" class="flot-tick-label tickLabel">Jan 03</div><div style="position: absolute; max-width: 88px; top: 252px; left: 367px; text-align: center;" class="flot-tick-label tickLabel">Jan 04</div><div style="position: absolute; max-width: 88px; top: 252px; left: 478px; text-align: center;" class="flot-tick-label tickLabel">Jan 05</div><div style="position: absolute; max-width: 88px; top: 252px; left: 589px; text-align: center;" class="flot-tick-label tickLabel">Jan 06</div></div><div class="flot-y-axis flot-y1-axis yAxis y1Axis" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; display: block;"><div style="position: absolute; top: 239px; left: 14px; text-align: right;" class="flot-tick-label tickLabel">0</div><div style="position: absolute; top: 220px; left: 7px; text-align: right;" class="flot-tick-label tickLabel">10</div><div style="position: absolute; top: 202px; left: 7px; text-align: right;" class="flot-tick-label tickLabel">20</div><div style="position: absolute; top: 184px; left: 7px; text-align: right;" class="flot-tick-label tickLabel">30</div><div style="position: absolute; top: 165px; left: 7px; text-align: right;" class="flot-tick-label tickLabel">40</div><div style="position: absolute; top: 147px; left: 7px; text-align: right;" class="flot-tick-label tickLabel">50</div><div style="position: absolute; top: 129px; left: 7px; text-align: right;" class="flot-tick-label tickLabel">60</div><div style="position: absolute; top: 110px; left: 7px; text-align: right;" class="flot-tick-label tickLabel">70</div><div style="position: absolute; top: 92px; left: 7px; text-align: right;" class="flot-tick-label tickLabel">80</div><div style="position: absolute; top: 74px; left: 7px; text-align: right;" class="flot-tick-label tickLabel">90</div><div style="position: absolute; top: 55px; left: 1px; text-align: right;" class="flot-tick-label tickLabel">100</div><div style="position: absolute; top: 37px; left: 2px; text-align: right;" class="flot-tick-label tickLabel">110</div><div style="position: absolute; top: 19px; left: 1px; text-align: right;" class="flot-tick-label tickLabel">120</div><div style="position: absolute; top: 1px; left: 1px; text-align: right;" class="flot-tick-label tickLabel">130</div></div></div><canvas class="flot-overlay" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 710px; height: 270px;" width="774" height="294"></canvas></div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-3 col-xs-12 bg-white">
+                <div class="x_title">
+                  <h2>Top Campaign Performance</h2>
+                  <div class="clearfix"></div>
+                </div>
+
+                <div class="col-md-12 col-sm-12 col-xs-6">
+                  <div>
+                    <p>Facebook Campaign</p>
+                    <div class="">
+                      <div style="width: 76%;" class="progress progress_sm">
+                        <div data-transitiongoal="80" role="progressbar" class="progress-bar bg-green" style="width: 50%;" aria-valuenow="79"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <p>Twitter Campaign</p>
+                    <div class="">
+                      <div style="width: 76%;" class="progress progress_sm">
+                        <div data-transitiongoal="60" role="progressbar" class="progress-bar bg-green" style="width: 60%;" aria-valuenow="59"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 col-sm-12 col-xs-6">
+                  <div>
+                    <p>Conventional Media</p>
+                    <div class="">
+                      <div style="width: 76%;" class="progress progress_sm">
+                        <div data-transitiongoal="40" role="progressbar" class="progress-bar bg-green" style="width: 40%;" aria-valuenow="39"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <p>Bill boards</p>
+                    <div class="">
+                      <div style="width: 76%;" class="progress progress_sm">
+                        <div data-transitiongoal="50" role="progressbar" class="progress-bar bg-green" style="width: 50%;" aria-valuenow="49"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="clearfix"></div>
+            </div>
+          </div>
+
+
+        </div>
+
+               <div class="text">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam nihil illo reiciendis repellendus! Non rem earum alias, in esse, velit accusantium voluptatem praesentium perferendis ut labore optio ducimus et consectetur?
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur unde corporis officiis iste dicta nobis eius voluptate, quis itaque, sit. Nesciunt voluptas voluptates iusto quibusdam obcaecati dolores dolore officiis distinctio. 
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. At asperiores laborum, dicta, eum voluptatibus numquam cumque quos dolore soluta ab quibusdam. Natus dicta impedit recusandae optio, tempore cumque quaerat ad!
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, animi. Voluptas recusandae vero nobis modi repellat in iure possimus adipisci rem laborum? Quasi cum, laboriosam delectus fuga. Dolor, inventore repellat! </p>
+                </div>
+
+
+    	</div>
+    	</div>
+    </div>
+</body>
+</html>	
