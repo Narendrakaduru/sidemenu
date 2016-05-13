@@ -61,6 +61,13 @@ html,body{
   height: 80px;
   margin-top: 10px;
 }
+.fa-envira {
+  -webkit-transform: rotate(90deg);
+     -moz-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+       -o-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
 .profile-pic{
   width: 80px;
 }
