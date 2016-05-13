@@ -51,6 +51,11 @@ html,body{
   position: absolute;
   top: 0;
 }
+.site-title i{
+  border: 1px solid #eaeaea;
+  border-radius: 50%;
+  padding: 7px 7px;
+}
 .profile-pic img{
   width: 80px;
   height: 80px;
